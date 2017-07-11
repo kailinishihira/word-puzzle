@@ -9,7 +9,22 @@
   </head>
   <body>
     <div class="container">
+      <form id="formOne">
+        <div class="form-group">
+          <label for="word">Enter a word:</label>
+          <input id="word" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
 
+      <div class="results">
+        <h3>Solve this Word Puzzle</h3>
+        <div class="well">
+          <div id="results">
+          </div>
+        </div>
+        <button id="showForm" class="btn btn-default">Show Answer</button>
+      </div>
     </div>
   </body>
 </html>
